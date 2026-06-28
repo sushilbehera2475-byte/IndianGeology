@@ -81,7 +81,7 @@ const Register = () => {
                   <h3 className="text-gray-500 font-medium">MEMBERSHIP DETAILS</h3>
                   <div className="grid grid-cols-2 gap-6">
                     <div className="border border-gray-300 bg-gray-300 rounded-lg p-4">
-                        <div className="flex justify-between p-2">
+                        <div className="flex justify-between p-2 sm:p-1">
                             <span className=" font-medium text-gray-800">Are you an ISEG member?</span>
                             <div>
                                 <button id="yes" onClick={() => setIsegMember(true)} className={`rounded-l h-8 w-14 font-medium transition ${isegMember ? "bg-blue-700 text-white" : "bg-white text-black"}`}>Yes</button>
@@ -94,7 +94,7 @@ const Register = () => {
                          className="w-full bg-white border border-gray-300 rounded-lg px-4 py-2.5 text-sm"/>}
                     </div>
                     <div className="border border-gray-300 bg-gray-300 rounded-lg p-4">
-                        <div className="flex justify-between p-2">
+                        <div className="flex justify-between p-2 sm:p-1">
                             <span className="font-medium text-gray-800">Are you an IAEG member?</span>
                             <div className=" rounded-2xl bg-white">
                                 <button onClick={() => setIaegMember(true)} className={`rounded-l h-8 w-14 font-medium transition ${iaegMember ? "bg-blue-700 text-white" : "bg-white text-black"}`}>Yes</button>
@@ -107,7 +107,7 @@ const Register = () => {
                          className="w-full bg-white border border-gray-300 rounded-lg px-4 py-2.5 text-sm"/>}
                     </div>
                     <div className="border border-gray-300 bg-gray-300 rounded-lg p-4">
-                        <div className="flex justify-between p-2">
+                        <div className="flex justify-between p-2 sm:p-1">
                             <span className="font-medium text-gray-800">Are you a WEG member?</span>
                             <div>
                                 <button onClick={() => setWegMember(true)} className={`rounded-l h-8 w-14 font-medium transition ${wegMember ? "bg-blue-700 text-white" : "bg-white text-black"}`}>Yes</button>
@@ -117,7 +117,7 @@ const Register = () => {
                         </div>
                     </div>
                     <div className="border border-gray-300 bg-gray-300 rounded-lg p-4">
-                        <div className="flex justify-between p-2">
+                        <div className="flex justify-between p-2 sm:p-1">
                             <span className="font-medium text-gray-800">Are you a YEG member?</span>
                             <div>
                                 <button onClick={() => setYegMember(true)} className={`rounded-l h-8 w-14 font-medium transition ${yegMember ? "bg-blue-700 text-white" : "bg-white text-black"}`}>Yes</button>
@@ -129,7 +129,7 @@ const Register = () => {
                   </div>
                 </div>
                 <button className="bg-gradient-to-r from-blue-800 to-sky-600 rounded-xl p-7
-                 w-full h-5 text-white  flex items-center justify-center">Submit Registration  <span><MdOutlineArrowRightAlt />
+                 w-full h-5 text-white  flex items-center justify-center">Submit Registration  <span><MdOutlineArrowRightAlt className="text-xl text-white" />
                  </span></button>
               </form>
             </div>
