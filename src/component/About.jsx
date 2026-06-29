@@ -40,7 +40,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <p className="tracking-wider text-base lg:text-xl">
+            <p className="tracking-wider text-base lg:text-xl text-gray-700">
               The Indian Society of Engineering Geology (ISEG), the Indian
               National Group of the International Association for Engineering
               Geology and the Environment (IAEG), was established on 15th
@@ -48,7 +48,7 @@ const About = () => {
               contributes to international cooperation and professional
               development in the field of Engineering Geology.
             </p>
-            <p className="tracking-wider text-base lg:text-xl">
+            <p className="tracking-wider text-base lg:text-xl text-gray-700">
               To mark the 60th year of publication of the Journal of Engineering
               Geology, ISEG in association with IAEG Commission 43 is jointly
               organising this International Workshop on Dams and Levees. The Dam
@@ -58,7 +58,7 @@ const About = () => {
               Sharma, Former Deputy Director General, GSI, is the Indian
               representative of the Commission.
             </p>
-            <p className="tracking-wider text-base lg:text-xl">
+            <p className="tracking-wider text-base lg:text-xl text-gray-700">
               The Commission aims to advance best practices in dam and levee
               engineering while fostering global collaboration among engineering
               geologists. Its mission is to strengthen professional knowledge
@@ -67,7 +67,7 @@ const About = () => {
               engineers, academics, and practitioners across government,
               private, and professional societies.
             </p>
-            <p className="tracking-wider text-base lg:text-xl">
+            <p className="tracking-wider text-base lg:text-xl text-gray-700">
               The International Workshop on Dams and Levees will address the
               feasibility, construction, and post-construction challenges of dam
               projects across diverse geological terrains.
