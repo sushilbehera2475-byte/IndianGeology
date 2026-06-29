@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div>
        <section
-          className="main-container top-spacing bottom-spacing px-16 py-16 sm:px-10 md:px-12 lg:px-14 xl:px-18"
+          className="px-16 py-16 sm:px-10 md:px-12 lg:px-14 xl:px-18"
           id="about"
         >
           <div className="flex flex-col gap-10">
