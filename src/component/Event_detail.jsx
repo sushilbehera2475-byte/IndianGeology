@@ -45,7 +45,7 @@ const Event_detail = () => {
                   </h3>
                 </div>
                 <div className="text-gray-800 text-base font-medium leading-snug">
-                  12th &amp; 13th December 2026
+                  12th & 13th December 2026
                 </div>
               </div>
               <div className="group relative bg-white rounded-xl shadow-sm hover:shadow-lg border border-gray-100 p-6 flex flex-col gap-4 transition-all duration-300 hover:-translate-y-1">
